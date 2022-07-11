@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1440px;
+}
+.navbar{
+    height: 75px;
+    max-width: 1600px;
+    background-color: black;
+    border: solid 4px;
+    border-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.navbar_logo{
+margin-top: 19px;
+margin-left: 231px;
+}
+
+.navbar_menu{
+    margin-top: 19px;
+    margin-right: 230px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdownbtn{
+    border: none;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 220px;
+    z-index: 1;
+}
+.dropdown-content li{
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown_h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 37px;
+    margin-left: 34px;
+
+}
+.header_menu_name{
+    color: rgba(241, 109, 127, 1);
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    margin-left: 33px;
+}
+.dropdown_li{
+    color: rgba(111, 110, 110, 1);
+    font-size: 14px;
+    margin-left: 54px;
+    margin-top: 11px;
+}
+.image_header{
+    margin-left: 15px;
+}
+
+
+.block_the_brand{
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(241, 228, 230, 1);
+}
+.img_the_brand{
+    width: 50%;
+    height: 764px;
+    border: solid 4px;
+    border-color: blueviolet;
+}
+.text_the_brand{
+    display: flex;
+}
+.rectangle{
+    margin-top: 365px;
+    width: 12px;
+    height: 98px;
+}
+.text0_the_brand{
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    width: 377px;
+    height: 92px;
+    margin-top: 365px;
+    margin-right: 331px;
+    margin-left: 16px;
+    border: solid 3px blueviolet;
+
+}
+.text2_the_brand{
+    font-size: 30px;
+}
+.text3_the_brand{
+    font-size: 32px;
+    color: brown;
+}
+.for_women_men_kids{
+    display: flex;
+    justify-content: center;
+    height: 360px;
+    margin-top: 65px;
+}
+.accesories{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 180px;
+}
+.img_for_women_men_kids{
+    width: 360px;
+    height: 260px;
+
+}
+.mg{
+    margin-left: 30px;
+}
+.h2_fetured_items{
+    text-align: center;
+    margin-top: 96px;
+}
+.p_fetured_items{
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 41px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img_fetured{
+   
+    margin-top: 30px;
+}
+.img_exept_1_4{
+    margin-left: 30px;
+}
+.block_browse_all_product{
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
+    margin-bottom: 100px;
+}
+.browse_all_product{  
+    text-align: center;
+    display: inline-block;
+    margin: 20px 20px;
+    vertical-align: middle;
+    text-decoration: none;
+    border: solid 3px;
+    border-color: brown;
+    color: brown;
+    font-size: 14px;
+    width: 210px;
+    height: 50px;
+}
+.block_black_colour{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 341px;
+}
+.img_block_black{
+    width: 360px;
+    height: 133px;
+    margin-top: 100px;
+}
+.pered_futer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 448px;
+    background-image: url(Images/Layer_full.png);
+}
+.pered_futer_left{
+    margin-left: 210px;
+    margin-top: 87px;
+}
+.pered_futer_right{
+    margin-right: 210px;
+    margin-top: 150px;
+    text-align: center;
+}
+.pered_futer_right_form{
+    margin-top: 32px;
+}
+.pered_futer_button{
+    width: 100px;
+    height: 49px;
+    border-radius: 0 30px 30px 0;
+    background-color: rgba(241, 109, 127, 1);
+}
+.pered_futer_input{
+    background-color: rgba(225, 225, 225, 1);
+    width: 256px;
+    height: 49px;
+}
+.footer{
+    width: 100%;
+    height: 79px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer_left{
+   margin-top: 30px;
+   margin-left: 235px;
+}
+.footer_right{
+    margin-top: 24px;
+    margin-right: 347px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
