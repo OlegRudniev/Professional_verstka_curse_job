@@ -1,6 +1,40 @@
 ul{
     list-style-type: none;
 }
+.header_log_brand{
+    height: 100px;
+}
+.header_col2-5{
+      margin-top: 30px;
+}
+.header_col4_korzinka{
+      margin-left: 200px;
+      display: flex;
+      justify-content: end;
+}
+.header_4coll_My_account{
+      text-decoration: none;
+      font-size: 20px;
+      border: solid 1px red;
+      background-color: red;
+      height: 200px;
+      width: 300px;
+           
+}
+.nav-link{
+    color: black;
+    font-weight: 600;
+    }
+    .first_rose_stroke{
+    height: 150px;
+    background-color: rgb(221, 206, 206);
+    }
+    .rose_stroke_col{
+          display: flex;
+          justify-content: center;
+          margin-top: 50px;
+    }
+
 .block_black_colour{
     display: flex;
     justify-content: center;
