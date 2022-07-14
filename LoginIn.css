@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 .container{
     display: flex;
@@ -13,6 +14,49 @@
 .login{
     margin-top: 30px;
 }
+.input{
+    height: 40px;
+    width: 250px;
+    border: solid black 2px;
+}
 .input_check{
     display: inline;
+    border: solid black 2px;
+}
+.button{
+    height: 40px;
+    width: 250px;
+    background-color: black;
+    color: aliceblue;
+    border: solid black 2px;
+    
+}
+.button:hover{
+    transition: 3s;
+    transform: scale(1.2);
+    background-color: green;
+}
+.create_account{
+    height: 40px;
+    width: 250px;
+    background-color: white;
+    color: blue;
+    border: solid black 2px;
+    text-align: center;
+    padding-top: 15px;
+}
+.a_home{
+    height: 40px;
+    width: 250px;
+    background-color: black;
+    color: aliceblue;
+    border: solid black 2px;
+    text-align: center;
+    padding-top: 15px;   
+}
+.a_home:hover{
+    transition: all 2000ms steps(3, end);
+    background-color: green;
+    transform: rotate(180deg);
+
 }
