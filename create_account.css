@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.create_account{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+}
+.in_c_a{
+    margin-top: 30px;
+}
+.c_b_male{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.check_box_radio{
+    height: 40px;
+    width: 250px;
+    border: solid black 2px;
+    text-align: center;
+}
+.block_inputs{
+   display: flex; 
+   flex-direction: column;
+}
+.input{
+    height: 30px;
+    width: 250px;
+    border: solid black 2px;
+    text-align: left;
+    margin-top: 15px;
+
+}
+.check_box{
+    display: flex; 
+    flex-direction: column; 
+}
+.input_bottom{
+    margin-top: 20px;
+}
+.buttons{
+    display: flex; 
+    flex-direction: column;  
+}
+.button1{
+    height: 40px;
+    width: 250px;
+    border: solid black 2px;
+    text-align: center;
+    background-color: black; 
+    color: aliceblue;
+}
+.button2{
+    height: 40px;
+    width: 250px;
+    border: solid black 2px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+}
+.button2:hover{
+    background-color: green;
+    transition: all 2000ms steps(3, end);
+
+}
+
+
+.a_home:hover{
+    transition: all 2000ms steps(3, end);
+    background-color: green;
+    transform: rotate(180deg);
+
+}
