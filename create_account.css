@@ -54,6 +54,15 @@
     background-color: black; 
     color: aliceblue;
 }
+.button1:hover{
+    transition: 3s;
+    transform: scale(1.2);
+    background-color: blue;
+}
+@keyframes x{
+    0% { left:0; }
+    100% { left:250px; }
+}
 .button2{
     height: 40px;
     width: 250px;
@@ -63,15 +72,10 @@
     background-color: white;
 }
 .button2:hover{
-    background-color: green;
     transition: all 2000ms steps(3, end);
-
+    background-color: green;
+    transform: rotate(180deg); 
 }
 
 
-.a_home:hover{
-    transition: all 2000ms steps(3, end);
-    background-color: green;
-    transform: rotate(180deg);
 
-}
